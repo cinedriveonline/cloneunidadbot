@@ -1,0 +1,28 @@
+{
+	"name": "FClone-Bot",
+	"description": "Fclone Telegram Bot",
+	"repository": "https://github.com/Nenokkadine/FClone-Tg-Bot",
+	"keywords": ["Fclone","TG"],
+	"env": {
+		"BOT_TOKEN": {
+			"description": "Obtenlo creando un bot con @Botfather"
+		},
+		"USER_ID": {
+			"description": "Tu id de usuario (Si quieres agregar mas usuarios separalos con comas , ).El primero es el Admin"
+		},
+		"GRP_ID": {
+			"description": "Si lo quieres usar en un grupo agrega el ID. agrega -1 si no quieres usarlo en ninguno",
+			"value": "-1"
+		},
+		"RCLONE_SYNC": {
+      		"description": "Sync or copy files prefered sync.",
+      		"value": "true",
+      		"required": true
+      		},
+		"GC_PARA_OVERRIDE": {
+			"description": "Leave this if u Dont Know",
+			"required": false
+		}
+	},
+    	"stack": "container"
+}
