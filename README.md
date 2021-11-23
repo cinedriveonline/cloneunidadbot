@@ -23,7 +23,7 @@
 - Para un solo usuario ya que si agregas mas, usuarios ellos tienen que realizar las configuraciones posteriores que son : Agregar cuentas de servicio y configurar sus Directorios, y asi cada quien tener acceso al bot, con sus propias configuraciones, sin necesidad de tener las mismas cuentas de servicio, y seleccionando sus propios Team Drives, el problema y limitacion es que esta configuracion se hace una sola vez, si aumentas usuarios desde heroku, se resetea la configuracion de todos y se necesitara que vuelvan a iniciarla (agregar cuentas de servicio y los directorios o carpetas destino cada uno de los usuarios).
 - Al parecer los accesos directos en un directorio a copiar pueden causar problemas.
 
-⚫ Puedes encontrar el tutorial completo en  Cloneunidadbot Telegram clone TEAM DRIVE service accounts](https://uniq.edu.mx/cloneunidadbot-telegram-clone-team-drive-service-accounts) - [Aqui el video](https://www.youtube.com/watch?v=VnXNESf6F2Q)
+⚫ Puedes encontrar el tutorial completo en  [Cloneunidadbot Telegram clone TEAM DRIVE service accounts](https://uniq.edu.mx/cloneunidadbot-telegram-clone-team-drive-service-accounts) - [Aqui el video](https://www.youtube.com/watch?v=VnXNESf6F2Q)
 - [x] Crear bot en telegram y obtener "telegram_token"
 - [x] Obtener "user_ids" , nuestro ID telegram.
 - [x] Crear Grupo en telegram y Obtener "group_ids" 
